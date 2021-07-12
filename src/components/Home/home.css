@@ -1,0 +1,36 @@
+.home {
+  color: white;
+  min-height: 80vh;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+section {
+  width: 100%;
+}
+.intro {
+  padding: 35px;
+  height: 80vh;
+}
+.photo-container {
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+}
+.photo {
+  height: 80vh;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  .photo-container {
+    width: 300px;
+    height: 300px;
+  }
+  .photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+}
